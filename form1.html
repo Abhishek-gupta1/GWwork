@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Student Registeration Form</title><br>
+</head>
+<body>
+<form action="dbwork.php" method="POST">
+<h1><center>Registeration Form</center></h1>
+<br>
+<fieldset>
+<legend>Personal Detail</legend>
+Registeration number: <input type="text" name="roll_no" value=""><br><br>
+Name: <input type="text" name="name" value=""><br><br>
+Address: <input type="text" name="address" value=""><br><br>
+Emailid:<input type="text" name="email" value=""><br><br>
+Gender:<br>
+Male:<input type="radio" name="gender" value="male">
+Female:<input type="radio" name="gender" value="female"><br><br>
+Contact No:<input type="text" name="phone" value=""><br><br>
+DOB:<input type="text" name="dob" placeholder="dd/mm/yyyy"><br><br>
+Courses:
+<select name="course">
+<option value="M.Tech">M.Tech</option>
+<option value="MCA">MAC</option>
+<option value="MBA">MBA</option>
+<option value="B.Tech">B.Tech</option>
+<option value="BCA">BCA</option>
+<option value="BBA">BBA</option>
+<option value="B.COM">B.COM</option>
+</select>
+</fieldset>
+<fieldset>
+<legend>Education Details</legend>
+Qualification<br><br>
+SSC:<input type="text" name="ssc" value=""><br><br>
+HSC:<input type="text" name="hsc" value=""><br><br>
+</fieldset><br>
+<center><input type="submit" name="submit" value="submit"></center>
+</form>
+</body>
+</html>
+
